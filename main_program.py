@@ -58,8 +58,8 @@ def train_model(csv_file, base_path):
 st.title("💓 Heartbeat Condition Classifier")
 
 # Train model once
-csv_file = "C:/Users/Arjun S V/Desktop/HEART BEAT DATASET/set_a.csv"
-base_path = "C:/Users/Arjun S V/Desktop/HEART BEAT DATASET/set_a"
+csv_file = "set_a.csv"
+base_path = "set_a"
 
 with st.spinner("Training model... Please wait ⏳"):
     model, acc, conf_matrix, report = train_model(csv_file, base_path)
