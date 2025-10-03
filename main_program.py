@@ -55,7 +55,7 @@ def train_model(csv_file, base_path):
 # ========================
 #  STREAMLIT FRONTEND
 # ========================
-st.title("💓 Heartbeat Condition Classifier")
+st.title("💓 Heartbeat Condition Predictor")
 
 # Train model once
 csv_file = "set_a.csv"
